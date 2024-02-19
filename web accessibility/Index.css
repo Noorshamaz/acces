@@ -1,0 +1,106 @@
+body {
+background-color: rgba(79, 54, 90, 1);
+color: #fff;  }
+
+.Overskrift {
+position: relative;
+bottom: 850PX;
+right: 400px; 
+font-size: 50px; }
+
+.flex-container { /*Til text*/
+position: relative;
+top: 590px;
+font-size: 60px;
+display: flex;
+justify-content: bottom; 
+height: 800px; 
+border: 8px solid rgba(0, 0, 0, 0.5); 
+border-radius: 8px; }
+
+header {
+        position: absolute;
+        top: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+      
+       }
+
+.container {
+position: relative;
+bottom: 1200px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.nav {
+position: relative;
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: flex-end; /* Align items to the right */
+}
+
+.nav li {
+margin-left: 20px;
+}
+
+.nav li:first-child {
+margin-left: 0;
+}
+
+header, main, footer {
+position: relative;
+top: 1200px;
+padding: 20px; }
+
+main {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+border-radius: 8px; }
+
+section {
+background-color: rgba(0, 0, 0, 0.5);
+padding: 20px;
+flex: 1;
+border-radius: 8px; }
+
+.extra-info {
+position: relative;
+top: 1200px;  }
+
+footer {
+font-size: 20px;
+text-align: left;
+margin-top: auto;  }
+
+/*button*/
+#scroll-btns {
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 9999;
+display: flex;
+flex-direction: column;
+align-items: flex-end; 
+border-radius: 8px; }
+
+.scroll-btn {
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+margin-top: 5px; 
+border-radius: 8px; }
+
+.scroll-btn:first-child {margin-top: 0;}
+
+.scroll-btn:hover {background-color: rgba(0, 0, 0, 0.5);}
+
